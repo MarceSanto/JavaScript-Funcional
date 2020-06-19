@@ -29,3 +29,7 @@ console.log(potenciaDe2(8))
 
 const pot34 = potencia(3)(4)
 console.log(pot34)
+
+const potenciab = base => exp => Math.pow(base, exp)
+
+console.log(potenciab(2)(8))
