@@ -20,6 +20,7 @@ const carrinho = [
 // const getTotal = (item) => item.qtde * item.preco
 // console.log(carrinho.map(getTotal))
 
+// Criando a funcao Map 
 Array.prototype.meuMap = function (fn) {
   const novoArray = []
   for (let i = 0; i < this.length; i++) {
